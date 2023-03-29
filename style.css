@@ -1,0 +1,323 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;        
+}
+:root{
+    --box-color: #6d6d6d25;
+    --color-link: #008aff;
+    --color-backgroud: #1a1a1a;
+    --color-font: #000000;
+    --font-apple: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: var(--color-backgroud);
+}
+header{
+    padding: 10px;
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #6d6d6d25;
+}
+header h1{
+    color: white;
+}
+.nomes{
+    width: 100%;
+    background-color: red;
+    text-align: center;
+}
+.nomes p{
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background-color: #6d6d6d25;
+}
+footer p{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 5px 0px;
+    opacity: 90%;
+    word-spacing: 2px;
+    font-family: var(--font-apple);
+}
+footer p a{
+    text-decoration: none;
+    font-family: var(--font-apple);
+    color: var(--color-link);
+}
+
+#nomes{
+    text-align: center;
+    opacity: 50%;
+}
+@media (min-width:320px){
+    header{
+    padding: 10px;
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #6d6d6d25;
+    }
+    header h1{
+    color: white;
+    font-size: 30px;
+    
+    }
+    .content{
+        height: auto;
+        width: 320px;;
+        margin: 0px auto;
+        color: white;
+        font-family: var(--font-apple);
+        display: flex;
+        flex-direction: column;
+    }
+    .boxes{
+        margin: 5px auto;
+    }
+    .content .box{
+        height: 100%;
+        width: 310px;
+        margin: 10px auto;
+        padding: 5px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 8px hsla(0, 0%, 0%, 0.450);
+        background-color: var(--box-color);
+    }
+    .box h2{
+        margin: 0px;
+        text-indent: 5px;
+    }
+    .box .video{
+        width: 100%;
+        height: 177px;
+        margin: 0px auto;
+        border-radius: 5px;
+    }
+    .nomes p{
+        font-size: 13px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #nomes{
+        text-align: center;
+        opacity: 50%;
+        font-size: 10px;
+    }
+}
+@media (min-width:375px){
+    .content{
+        height: auto;
+        width: 375px;;
+        margin: 0px auto;
+        color: white;
+        font-family: var(--font-apple);
+        display: flex;
+        flex-direction: column;
+    }
+    .boxes{
+        margin: 5px auto;
+    }
+    .content .box{
+        margin: 10px auto;
+        height: 100%;
+        width: 360px;
+        padding: 5px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.450);
+        background-color: var(--box-color);
+    }
+    .box h2{
+        margin: 0px;
+        text-indent: 5px;
+    }
+    .box .video{
+        width: 100%;
+        height: 195px;
+        margin: 0px auto;
+        border-radius: 5px;
+    }
+    .nomes p{
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #nomes{
+        text-align: center;
+        opacity: 50%;
+        font-size: 13px;
+    }
+}
+@media (min-width:425px){
+    .content{
+        height: auto;
+        width: 425px;
+        margin: 0px auto;
+        color: white;
+        font-family: var(--font-apple);
+        display: flex;
+        flex-direction: column;
+    }
+    .boxes{
+        margin: 5px auto;
+    }
+    .content .box{
+        margin: 10px auto;
+        height: 100%;
+        width: 415px;
+        padding: 5px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.450);
+        background-color: var(--box-color);
+    }
+    .box h2{
+        margin: 0px;
+        text-indent: 5px;
+    }
+    .box .video{
+        width: 100%;
+        height: 223px;
+        margin: 0px auto;
+        border-radius: 5px;
+    }
+    .nomes p{
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #nomes{
+        text-align: center;
+        opacity: 50%;
+        font-size: 15px;
+    }
+}
+@media (min-width:596px){
+    .content{
+        height: auto;
+        width: 596px;;
+        margin: 0px auto;
+        color: white;
+        font-family: var(--font-apple);
+        display: flex;
+        flex-direction: column;
+    }
+    .boxes{
+        margin: 5px auto;
+    }
+    .content .box{
+        margin: 10px auto;
+        height: 100%;
+        width: 550px;
+        padding: 5px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.582);
+        background-color: var(--box-color);
+    }
+    .box h2{
+        margin: 0px;
+        text-indent: 5px;
+    }
+    .box .video{
+        width: 100%;
+        height: 299px;
+        margin: 0px auto;
+        border-radius: 5px;
+    }
+}
+@media (min-width:768px){
+    .content{
+        height: auto;
+        width: 768px;;
+        margin: 0px auto;
+        color: white;
+        font-family: var(--font-apple);
+        display: flex;
+        flex-direction: column;
+    }
+    .boxes{
+        margin: 5px auto;
+    }
+
+}
+
+
+
+@media (min-width:1024px){
+    header{
+    padding: 10px;
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #6d6d6d25;
+    }
+    header h1{
+    color: white;
+    font-size: 35px;
+    
+    }
+    .content{
+        height: auto;
+        width: 1024px;
+        margin: 0px auto;
+        color: white;
+        font-family: var(--font-apple);
+        display: flex;
+        flex-direction: column;
+    }
+    .boxes{
+        margin: 5px auto;
+        display: inline;
+    }
+    .content .box{
+        margin: 10px auto;
+        height: 100%;
+        width: 550px;
+        padding: 5px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.582);
+        background-color: var(--box-color);
+    }
+    .box h2{
+        margin: 0px;
+        text-indent: 5px;
+    }
+    .box .video{
+        width: 100%;
+        height: 299px;
+        margin: 0px auto;
+        border-radius: 5px;
+    }
+}
+
+
+
+
+@media (min-width:1440px){
+    header h1{
+        color: white;
+        font-size: 40px;
+        
+        }
+    .content{
+        height: auto;
+        width: 1440px;;
+        margin: 0px auto;
+        color: white;
+        font-family: var(--font-apple);
+        display: flex;
+        flex-direction: column;
+    }
+    .boxes{
+        margin: 5px auto;
+    }
+
+}
